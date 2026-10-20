@@ -3,7 +3,8 @@ spring:
     name: catalog-service
 
   datasource:
-    url: jdbc:sqlserver://localhost:1433;databaseName=chinook_catalog;encrypt=false
+#    url: jdbc:sqlserver://localhost:1433;databaseName=chinook_catalog;encrypt=false
+    url: jdbc:sqlserver://sqlserver:1433;databaseName=chinook_catalog;encrypt=false
     username: sa
     password: P@ssw0rd123
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
