@@ -4,10 +4,11 @@ spring:
 
   datasource:
 #    url: jdbc:sqlserver://localhost:1433;databaseName=chinook_catalog;encrypt=false
-    url: jdbc:sqlserver://sqlserver:1433;databaseName=chinook_catalog;encrypt=false
-    username: sa
+#    url: jdbc:sqlserver://sqlserver:1433;databaseName=chinook_catalog;encrypt=false
+    url: jdbc:postgresql://dpg-dbbgt03rjlhs73e7vfd0-a.singapore-postgres.render.com/chinook_catalog
+    username: chinook_catalog_user
     password: P@ssw0rd123
-    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    driver-class-name: org.postgresql.Driver
 
   jpa:
     hibernate:
