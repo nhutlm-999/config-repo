@@ -7,7 +7,7 @@ spring:
 #    url: jdbc:sqlserver://sqlserver:1433;databaseName=chinook_catalog;encrypt=false
     url: jdbc:postgresql://dpg-dbbgt03rjlhs73e7vfd0-a.singapore-postgres.render.com/chinook_catalog
     username: chinook_catalog_user
-    password: P@ssw0rd123
+    password: ClWkRvpUtuPAuG6siVtbTqYRKPVF3gvg
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -17,7 +17,7 @@ spring:
     properties:
       hibernate:
         format_sql: true
-        physical_naming_strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#        physical_naming_strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 
 
 logging:
