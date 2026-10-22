@@ -5,9 +5,9 @@ spring:
   datasource:
 #    url: jdbc:sqlserver://localhost:1433;databaseName=chinook_catalog;encrypt=false
 #    url: jdbc:sqlserver://sqlserver:1433;databaseName=chinook_catalog;encrypt=false
-    url: jdbc:postgresql://dpg-dbbgt03rjlhs73e7vfd0-a.singapore-postgres.render.com/chinook_catalog
-    username: chinook_catalog_user
-    password: ClWkRvpUtuPAuG6siVtbTqYRKPVF3gvg
+    url: jdbc:postgresql://dpg-dbbhkvvavr4c73dtp1m0-a.singapore-postgres.render.com:5432/chinook_catalog_ovmd?sslmode=require
+    username: chinook_catalog_ovmd_user
+    password: owHoi8WMKUa1O43K9cuY7iqPwuAVXwpl
     driver-class-name: org.postgresql.Driver
 
   jpa:
